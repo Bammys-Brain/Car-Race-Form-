@@ -1,0 +1,27 @@
+/*var  backgroundImage;
+
+var gameState = 0;
+var playerCount;
+
+var database;
+
+var form, player, game;*/
+
+var form;
+
+
+function setup(){
+  createCanvas(400,400);
+  //database = firebase.database();
+ /* game = new Game();
+  game.getState();
+  game.start(); */
+
+  form = new Form();
+}
+
+
+function draw(){
+
+  form.display();
+}
